@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657E8A9B269EA0CC00176A17 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8A9A269EA0CC00176A17 /* PortfolioView.swift */; };
 		65835052269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65835051269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift */; };
 		65835054269CB7FD000ACF7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65835053269CB7FD000ACF7A /* ContentView.swift */; };
 		65835056269CB7FF000ACF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65835055269CB7FF000ACF7A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657E8A9A269EA0CC00176A17 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		6583504E269CB7FD000ACF7A /* AustinNormanPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AustinNormanPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65835051269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinNormanPortfolioApp.swift; sourceTree = "<group>"; };
 		65835053269CB7FD000ACF7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				65835053269CB7FD000ACF7A /* ContentView.swift */,
 				65835066269CC52E000ACF7A /* InfoView.swift */,
+				657E8A9A269EA0CC00176A17 /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				65835054269CB7FD000ACF7A /* ContentView.swift in Sources */,
 				65835067269CC52E000ACF7A /* InfoView.swift in Sources */,
 				65835052269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift in Sources */,
+				657E8A9B269EA0CC00176A17 /* PortfolioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

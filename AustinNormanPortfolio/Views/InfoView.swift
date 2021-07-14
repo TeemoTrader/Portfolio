@@ -22,6 +22,7 @@ struct InfoView: View {
                     .font(.system(size: 25))
             })
             .padding()
+            .animation(.easeInOut)
     }
 }
 
