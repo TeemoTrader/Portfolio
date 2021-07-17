@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		657E8A9B269EA0CC00176A17 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8A9A269EA0CC00176A17 /* PortfolioView.swift */; };
+		6544294C26A34C570050361E /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544294B26A34C570050361E /* PortfolioView.swift */; };
+		657E8C1226A33FA500176A17 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8C1126A33FA500176A17 /* AppModel.swift */; };
+		657E8C1726A3408A00176A17 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8C1626A3408A00176A17 /* AppData.swift */; };
+		657E8C1926A343A300176A17 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8C1826A343A300176A17 /* CardView.swift */; };
 		65835052269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65835051269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift */; };
 		65835054269CB7FD000ACF7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65835053269CB7FD000ACF7A /* ContentView.swift */; };
 		65835056269CB7FF000ACF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65835055269CB7FF000ACF7A /* Assets.xcassets */; };
@@ -18,7 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		657E8A9A269EA0CC00176A17 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		6544294B26A34C570050361E /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		657E8C1126A33FA500176A17 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		657E8C1626A3408A00176A17 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		657E8C1826A343A300176A17 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6583504E269CB7FD000ACF7A /* AustinNormanPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AustinNormanPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65835051269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AustinNormanPortfolioApp.swift; sourceTree = "<group>"; };
 		65835053269CB7FD000ACF7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657E8C1026A33F9700176A17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				657E8C1126A33FA500176A17 /* AppModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		657E8C1526A3407E00176A17 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				657E8C1626A3408A00176A17 /* AppData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		65835045269CB7FD000ACF7A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,8 @@
 		65835050269CB7FD000ACF7A /* AustinNormanPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				657E8C1526A3407E00176A17 /* Data */,
+				657E8C1026A33F9700176A17 /* Model */,
 				65835065269CC51D000ACF7A /* Views */,
 				65835060269CBAC9000ACF7A /* Fonts */,
 				65835051269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift */,
@@ -92,7 +116,8 @@
 			children = (
 				65835053269CB7FD000ACF7A /* ContentView.swift */,
 				65835066269CC52E000ACF7A /* InfoView.swift */,
-				657E8A9A269EA0CC00176A17 /* PortfolioView.swift */,
+				657E8C1826A343A300176A17 /* CardView.swift */,
+				6544294B26A34C570050361E /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,10 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657E8C1926A343A300176A17 /* CardView.swift in Sources */,
 				65835054269CB7FD000ACF7A /* ContentView.swift in Sources */,
+				6544294C26A34C570050361E /* PortfolioView.swift in Sources */,
 				65835067269CC52E000ACF7A /* InfoView.swift in Sources */,
 				65835052269CB7FD000ACF7A /* AustinNormanPortfolioApp.swift in Sources */,
-				657E8A9B269EA0CC00176A17 /* PortfolioView.swift in Sources */,
+				657E8C1226A33FA500176A17 /* AppModel.swift in Sources */,
+				657E8C1726A3408A00176A17 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AustinNormanPortfolio/Preview Content\"";
+				DEVELOPMENT_TEAM = X7AJCH46B9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AustinNormanPortfolio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -322,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AustinNormanPortfolio/Preview Content\"";
+				DEVELOPMENT_TEAM = X7AJCH46B9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AustinNormanPortfolio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

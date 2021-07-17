@@ -12,19 +12,30 @@ struct InfoView: View {
     let imageName: String
     
     var body: some View {
-        RoundedRectangle(cornerRadius: 25)
+        RoundedRectangle(cornerRadius: 20)
             .frame(height: 60 )
-            .foregroundColor(.white)
+            .foregroundColor(.black)
+            .font(.largeTitle)
+            .shadow(color: .black, radius: 5)
             .overlay(HStack{
                 Image(systemName: imageName)
-                    .foregroundColor(.green)
+                    .foregroundColor(.white)
+                    .font(.title)
+                    .shadow(color: .white, radius: 2)
                 Text(text)
+                    .foregroundColor(.white)
                     .font(.system(size: 25))
+                    .font(.title)
+                    .shadow(color: .white, radius: 2)
+
+                    
+
             })
             .padding()
             .animation(.easeInOut)
     }
 }
+
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {

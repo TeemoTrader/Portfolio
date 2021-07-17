@@ -11,21 +11,26 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ZStack {
-                LinearGradient(gradient: Gradient(colors: [Color.black, Color.white]), startPoint: .bottom, endPoint: .top)
+                LinearGradient(gradient: Gradient(colors: [Color.white, Color.black]), startPoint: .bottom, endPoint: .top)
                     .ignoresSafeArea()
                 VStack {
-                    Image("MEEEEE")
+                    Image("meh")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                         .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                         .overlay(
-                            Circle().stroke(Color.white, lineWidth: 5))
+                            Circle().stroke(Color.black, lineWidth: 3))
+                        .shadow(color: .black, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                     Text("Austin Norman")
                         .font(Font.custom("Montserrat-Bold.ttf", size: 40))
                         .foregroundColor(.white)
+                        .shadow(color: .black, radius: 5)
+
                     Text("iOS Developer")
                         .foregroundColor(.white)
+                        .shadow(color: .black, radius: 5)
+
                     Divider()
                     InfoView(text: "704-281-3712", imageName: "phone.fill")
                     InfoView(text: "Austin@austin.com", imageName: "envelope.fill")

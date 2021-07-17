@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+
 @main
 struct AustinNormanPortfolioApp: App {
     var body: some Scene {
