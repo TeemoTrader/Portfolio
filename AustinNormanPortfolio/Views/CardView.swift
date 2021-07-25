@@ -38,7 +38,6 @@ struct CardView: View {
                     .fontWeight(.heavy)
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.15), radius: 2, x: 2, y: 2)
                 // APP: HEADLINE
-                
                 Text(apps.headline)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
@@ -52,13 +51,13 @@ struct CardView: View {
             } //VSTACK
         } // ZSTACK
         .onAppear {
-            withAnimation(.easeOut(duration: 0.5)) {
+            withAnimation(.easeOut(duration: 0.8)) {
                 isAnimating = true
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
         .background(LinearGradient(gradient: Gradient(colors: apps.gradientColors), startPoint: .top, endPoint: .bottom))
-        .cornerRadius(20)
+        .cornerRadius(30)
         .padding(.horizontal, 20)
     }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6544294C26A34C570050361E /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544294B26A34C570050361E /* PortfolioView.swift */; };
+		654429B626A3A11F0050361E /* RPReplay_Final1626504129.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 654429B526A3A11F0050361E /* RPReplay_Final1626504129.mp4 */; };
 		657E8C1226A33FA500176A17 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8C1126A33FA500176A17 /* AppModel.swift */; };
 		657E8C1726A3408A00176A17 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8C1626A3408A00176A17 /* AppData.swift */; };
 		657E8C1926A343A300176A17 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E8C1826A343A300176A17 /* CardView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		6544294B26A34C570050361E /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		654429B526A3A11F0050361E /* RPReplay_Final1626504129.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RPReplay_Final1626504129.mp4; sourceTree = "<group>"; };
 		657E8C1126A33FA500176A17 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		657E8C1626A3408A00176A17 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		657E8C1826A343A300176A17 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		654429B426A3A1050050361E /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				654429B526A3A11F0050361E /* RPReplay_Final1626504129.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
 		657E8C1026A33F9700176A17 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 		65835050269CB7FD000ACF7A /* AustinNormanPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				654429B426A3A1050050361E /* Videos */,
 				657E8C1526A3407E00176A17 /* Data */,
 				657E8C1026A33F9700176A17 /* Model */,
 				65835065269CC51D000ACF7A /* Views */,
@@ -182,6 +193,7 @@
 				65835064269CBBAE000ACF7A /* Montserrat-Bold.ttf in Resources */,
 				65835059269CB7FF000ACF7A /* Preview Assets.xcassets in Resources */,
 				65835062269CBB1E000ACF7A /* Montserrat-Medium.ttf in Resources */,
+				654429B626A3A11F0050361E /* RPReplay_Final1626504129.mp4 in Resources */,
 				65835056269CB7FF000ACF7A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
